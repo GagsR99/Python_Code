@@ -83,3 +83,17 @@
 
 # print(sum(ls)) # 1375
 
+# HackerRank Min-Max-Sum Problem:
+# def miniMaxSum(arr):
+#     arr.sort()        # Sorting the list and then adding first 4 numbers in list to get minimum value.
+#     miniSum = 0       # Then adding last 4 numbers in list to get maximum value.
+#     maxSum = 0
+#     for i in range(4):
+#         miniSum+=arr[i]
+    
+#     print(miniSum, end=' ')
+    
+#     for i in range(4,0,-1):
+#         maxSum+=arr[i]
+    
+#     print(maxSum, end=' ')
