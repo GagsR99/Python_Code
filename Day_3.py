@@ -70,5 +70,16 @@
 
 
 # FUNCTIONS
+# Refer below website for various functions
+# https://docs.python.org/3/library/functions.html
 
+# ls = [3, 10, 76, 45, 23, 135, 0, 289, 794]
+# sums = 0
+
+# for i in ls:
+#     sums+=i
+
+# print(sums) # 1375
+
+# print(sum(ls)) # 1375
 
