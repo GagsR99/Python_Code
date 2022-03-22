@@ -97,3 +97,20 @@
 #         maxSum+=arr[i]
     
 #     print(maxSum, end=' ')
+
+# ls = [3, 10, 76, 45, 23, 135, 0, 289, 794, 794]
+# k = max(ls)
+# print(k)
+# count = 0
+# for i in ls:               (OR)     for i in range(len(ls)):
+#     if(i == k):                         if(ls[i] == k):
+#         count+=1                            count+=1
+
+# print(count)
+
+#################################################################
+# ls.sort()
+# print(ls)
+# ls.reverse()
+# print(ls)
+
