@@ -97,3 +97,35 @@
 #     s = input()
 #     result = swap_case(s)
 #     print(result)
+
+# Capitalize (Type-1)
+# Works for all types of characters.
+# def solve(s):
+#     string = ""
+#     for i in range(len(s)):
+#         if i == 0:
+#             string += s[i].capitalize()
+#             continue
+#         if(s[i-1] == " "):
+#            string += s[i].capitalize()
+#            continue
+        
+#         string += s[i]
+#     return string
+
+
+## Capitalize (Type-2) ##
+# Only works for letters not numbers.
+# def solve(s):
+#     p = s.split()
+#     string = ""
+#     for i in p:
+#         string += i.capitalize() + " "
+        
+#     s = string
+#     return s
+
+# list1 = [1,2,3]
+# list2 = list1
+# list1[0] = 4
+# print(list2)
