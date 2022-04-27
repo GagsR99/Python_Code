@@ -104,8 +104,8 @@
 #     string = ""
 #     for i in range(len(s)):
 #         if i == 0:
-#             string += s[i].capitalize()
-#             continue
+#            string += s[i].capitalize()
+#            continue
 #         if(s[i-1] == " "):
 #            string += s[i].capitalize()
 #            continue
@@ -115,12 +115,20 @@
 
 
 ## Capitalize (Type-2) ##
+# def solve(s):
+#     for x in s[:].split():
+#         s = s.replace(x,x.capitalize())
+#     return s
+
+
+## Capitalize (Type-3) ##
 # Only works for letters not numbers.
 # def solve(s):
 #     p = s.split()
 #     string = ""
 #     for i in p:
-#         string += i.capitalize() + " "
+#         string += i.capitalize()
+#         string += " "
         
 #     s = string
 #     return s
@@ -129,3 +137,25 @@
 # list2 = list1
 # list1[0] = 4
 # print(list2)
+
+# s = "alison harrick "
+# for x in s[:].split():
+#     s = s.replace(x,x.capitalize())
+# print(s)
+
+#### Find the Percentage  ####
+# if __name__ == '__main__':
+#     n = int(input())
+#     student_marks = {}
+#     for i in range(n):
+#         name, *line = input().split()
+#         scores = list(map(float, line))
+#         student_marks[name] = scores
+#     query_name = input()
+#     s = 0
+#     for i in student_marks[query_name]:
+#         s += i
+        
+#     k = len(student_marks[query_name])
+#     s = s/k
+#     print("{0:.2f}".format(s))
