@@ -159,3 +159,18 @@
 #     k = len(student_marks[query_name])
 #     s = s/k
 #     print("{0:.2f}".format(s))
+
+### List Comprehensions ###
+# if __name__ == '__main__':
+#     x = int(input())
+#     y = int(input())
+#     z = int(input())
+#     n = int(input())
+
+# listijk = []
+# for i in range(x+1):
+#     for j in range(y+1):
+#         for k in range(z+1):
+#             if i+j+k != n:
+#                 listijk.append([i,j,k])
+# print(listijk)
