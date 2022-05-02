@@ -1,0 +1,10 @@
+## Hangman ##
+
+python --> p _ _ _ o _ 6
+
+1. Word
+2. We'll have to create dashes as per the number of words
+3. check function --> to check  whether the alphabets guessed by the user is correct or not
+4. so we need a function to update current status
+5. loop ifgame is won byt the user and 2nd number of chances are no more
+6. function to check whether game has ended or not
