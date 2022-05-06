@@ -174,3 +174,8 @@
 #             if i+j+k != n:
 #                 listijk.append([i,j,k])
 # print(listijk)
+
+# word = "apologise"
+# word = word.upper()
+# word_letters = set(word)
+# print(word_letters)
