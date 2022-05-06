@@ -1,6 +1,6 @@
-STRINGS - Sequence of characters.
-Terminated with a special character '\0'.
-Immutable objects.
+# STRINGS - Sequence of characters.
+# Terminated with a special character '\0'.
+# Immutable objects.
 
 hi = "This is an example of a string"
 print(hi)
@@ -50,7 +50,7 @@ print(s.capitalize())      # The avengers  (First letter of string gets capitali
 
 s = "Hulk Captain America Black Widow Dr Strange Spiderman Black Panther Winter Soldier Falcon Iron Man Thanos"
 print(s.split())        # ['Hulk', 'Captain', 'America', 'Black', 'Widow', 'Dr', 'Strange', 'Spiderman', 'Black', 'Panther', 'Winter', 'Soldier', 'Falcon', 'Iron', 'Man', 'Thanos']
-Converts the words in string to a list
+# Converts the words in string to a list
 
 s = "Hulk* Captain America Black Widow Dr Strange Spiderman Black Panther Winter Soldier Falcon Iron Man Thanos"
 print(s.split("*"))
@@ -62,9 +62,9 @@ print(s.isdigit())  # True
 
 
 ## DICTIONARY ###
-Is a built-in mapping type
-Makes keys to value
-Provides useful way to store data
+# Is a built-in mapping type
+# Makes keys to value
+# Provides useful way to store data
 
 d = {"name" : "Gagan", 23 : "age", True : "Male"}
 print(d)
@@ -78,7 +78,7 @@ print(ceil(7.8))        # 8
 print(floor(7.8))       # 7
 
 ## HackerRank ###
-Swap Case
+# Swap Case
 
 def swap_case(s):
     k = list(s)
@@ -98,8 +98,8 @@ if __name__ == '__main__':
     result = swap_case(s)
     print(result)
 
-Capitalize (Type-1)
-Works for all types of characters.
+# Capitalize (Type-1)
+# Works for all types of characters.
 def solve(s):
     string = ""
     for i in range(len(s)):
@@ -122,7 +122,7 @@ def solve(s):
 
 
 # Capitalize (Type-3) ##
-Only works for letters not numbers.
+# Only works for letters not numbers.
 def solve(s):
     p = s.split()
     string = ""
