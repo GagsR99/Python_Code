@@ -113,3 +113,15 @@
 # print(ls)
 # ls.reverse()
 # print(ls)
+
+# def factorial(value):
+#     fact = 1
+#     for i in range(1,value+1):
+#         fact = fact * i
+#     return fact
+
+# n = 10
+# r = 6
+
+# C = factorial(n)/(factorial(r) * factorial(n-r))
+# print(C)
